@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.app {
+    height: 97.9vh;
+    overflow: auto;
+}
+
+.data {
+    flex-direction: row;
+    flex-flow: inherit;
+    height: max-content;
+}
+
+mat-toolbar {
+    background-color: rgb(90, 212, 206);
+    z-index: 10;
+    height: 50px;
+}
+
+button {
+    outline: none;
+}
+
+mat-sidenav {
+    flex-flow: nowrap;
+    flex: 0 0 auto;
+    overflow-y: auto;
+    display: flex;
+}
+
+.z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    z-index: 15000;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-icon {
+    padding-right: 5px;
+}
+
+a {
+    text-decoration-color: black;
+    text-decoration-line: none;
+    -webkit-text-fill-color: black;
+}
+
+.flex-item {
+    flex: 1 1 auto;
+    align-self: auto;
+    width: calc(100% - 10px);
+    padding: 10px;
+    padding-right: 2px
+}
+
+.flex-items {
+    flex: 1 1 auto;
+    align-self: auto;
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+.flex-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    padding: 10px;
+    height: max-content;
+}
+
+.cont {
+    background-color: white;
+}
+
+.hei {
+    height: 100%
+}
+
+mat-sidenav {
+    overflow: hidden;
+}
+
+mat-sidenav:hover {
+    overflow-y: scroll;
+}
+
+.header-nav {
+    background-color: rgb(90, 212, 206);
+}

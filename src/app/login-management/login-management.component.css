@@ -1,0 +1,17 @@
+.data-container {
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 500px;
+    background-color: #fefefe;
+    overflow: hidden;
+}
+
+.data-view {
+    width: auto;
+    height: auto;
+    /* background-color: rgb(90, 212, 206); */
+    padding-bottom: 14.5%;
+    margin: 0;
+}
